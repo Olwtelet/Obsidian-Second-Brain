@@ -1,0 +1,8 @@
+[[How to Build a RocketChat Chatbot with TypeScript]]
+[[Learn TypeScript – The Ultimate Beginners Guide]]
+[[Learn TypeScript in Y Minutes]]
+[[Mastering Object-Oriented Programming with TypeScript Encapsulation, Abstraction, Inheritance, and Polymorphism Explained - DEV Community]]
+[[The Definitive TypeScript Handbook – Learn TypeScript for Beginners]]
+[[The Deno Handbook A TypeScript Runtime Tutorial with Code Examples]]
+[[TypeScript Documentation - TypeScript for JavaScript Programmers]]
+[[TypeScript Handbook for React Developers – How to Build a Type-Safe Todo App]]

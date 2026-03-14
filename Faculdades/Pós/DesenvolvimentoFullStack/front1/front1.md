@@ -1,0 +1,1 @@
+[[1 - Intro -  Practitioner Front-end]][[2- conceitos básicos]] [[3 - imagensListaVideo]] [[4 - Tabelas]] [[5 - formularios]] [[6 - CSS intro]] [[7 - Criando estilos]] [[8 - BootStrap]] [[9 -Avançando no bootstrap]]

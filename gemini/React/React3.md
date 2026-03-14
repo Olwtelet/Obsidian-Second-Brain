@@ -1,0 +1,1 @@
+[[0 - React RoadMap no bard]] [[1 - Componentes]] [[2 - Props]] [[3 - Estado]] [[4 - Eventos]] [[5 - Ciclo de vida de um componente]] [[6.0 - API do react]] [[6.1 - State Management]] [[6.2 - Hooks]] [[7 - Routing]] [[8 - Stylling]][[9 - Performance]] [[Handbook - Testes]] [[O que são Hooks]] [[O que são providers]] [[Passo a passo Testes]]

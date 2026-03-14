@@ -1,0 +1,5 @@
+[[Important Git Operations   Codecademy]]  
+[[Introduction to Kubernetes]]  
+[[Learn JavaScript Syntax Errors and Debugging  Codecademy 1]]  
+[[TypeScript O guia definitivo]]  
+[[Uma reintrodução ao JavaScript (Tutorial de JS) - JavaScript  MDN]]

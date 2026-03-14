@@ -1,0 +1,1 @@
+[[0 - Possíveis questões quiz]] [[1 - Uma imensidão de dados]] [[2 - Ciclo de vida de um projeto em ciência de dados  (Página 24).]] [[3 - Problemas e soluções em ciência de dados]] [[4 - Análise descritiva]] [[5 - Análise preditiva]] [[6 - Análise prescritiva]] [[7 - Business intelligence e visualização de dados]] [[8 - resumo]] [[Temp]]

@@ -1,0 +1,37 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "file:Olwtelet Setup",
+      "color": {
+        "a": 1,
+        "rgb": 16647686
+      }
+    },
+    {
+      "query": "section: a",
+      "color": {
+        "a": 1,
+        "rgb": 715717
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.2484375,
+  "lineSizeMultiplier": 2.703125,
+  "collapse-forces": false,
+  "centerStrength": 0,
+  "repelStrength": 20,
+  "linkStrength": 0.703125,
+  "linkDistance": 500,
+  "scale": 0.042315902689758975,
+  "close": true
+}

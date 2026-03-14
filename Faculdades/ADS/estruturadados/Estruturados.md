@@ -1,0 +1,1 @@
+[[0 - estudos-prova]] [[1 - Tipo abstrato de dados]] [[2 - Lista ligada]] [[3 - Arvores binárias]] [[4 - Balanceamento de árvores]] [[5 - Árvore AVL]] [[6 - Grafos]] [[7 - Grafos e multicaminhos]] [[8 - Eficiência assintótica de algoritmos]]

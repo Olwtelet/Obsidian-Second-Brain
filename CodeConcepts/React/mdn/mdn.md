@@ -1,0 +1,7 @@
+[[1- Getting started with React - Learn web development  MDN]]  
+[[2.1 - Beginning our React todo list - Learn web development  MDN]]  
+[[2.2 - Componentizing our React app - Learn web development  MDN]]  
+[[2.3 - React interactivity Events and state - Learn web development  MDN]]  
+[[2.4 - React interactivity Editing, filtering, conditional rendering - Learn web development  MDN]]  
+[[2.5 - Accessibility in React - Learn web development  MDN]]  
+[[2.6 - React resources - Learn web development  MDN]]

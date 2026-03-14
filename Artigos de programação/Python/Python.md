@@ -1,0 +1,7 @@
+[[10 minutes to pandas — pandas 1.5.3 documentation]]
+[[How to Create a Telegram Bot using Python]]
+[[How to Download and Trim MP3s from YouTube with Python]]
+[[Learn Python in Y Minutes]]
+[[Learn Python Programming – Everything You Need to Know (Free Book)]]
+[[Scraping Using Python in Step by step approach - DEV Community]]
+[[The Python Handbook – Learn Python for Beginners]]

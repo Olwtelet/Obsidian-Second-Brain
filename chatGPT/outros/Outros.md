@@ -1,0 +1,7 @@
+[[Algoritmos com C]]  
+[[I.A - Basic]]  
+[[Kubernets]]  
+[[Nest.js]]  
+[[Next.js - Intro]]  
+[[Tipos de testes (generic)]]  
+[[Tutorial básico sobre Arquivos .md]]

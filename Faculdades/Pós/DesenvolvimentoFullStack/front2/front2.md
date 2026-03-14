@@ -1,0 +1,1 @@
+[[1-Preparando o ambiente]] [[2 - jsConceitos]] [[3 - tiposDados]] [[4 - pratica]] [[5- String]] [[6- ifSwitch]] [[7-array]] [[8-utilizandoArray]] [[9-funcoes]] [[10- classes]] [[11- Elementos Dom]] [[12 - construindoZero]]
