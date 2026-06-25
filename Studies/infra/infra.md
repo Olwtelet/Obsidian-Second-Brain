@@ -1,0 +1,1 @@
+[[1 - Container x imagem]] [[2 - Dockerfile]] [[3 - Volumes e networks]] [[4 - Docker Compose]] [[5 - Git - o que é um commit]] [[6 - Branches e pull requests]] [[7 - Semantic versioning e tags]] [[8 - CI-CD]]
