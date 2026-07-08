@@ -86,3 +86,23 @@ Rotação: cada uso do refresh emite um refresh novo e invalida o anterior. Se u
 Aplicação web monolítica com um servidor e um banco: sessão é mais simples e revoga na hora. JWT nesse caso é complexidade sem ganho.
 
 JWT brilha quando **vários serviços** precisam validar de forma independente, ou o cliente não é navegador.
+
+---
+
+Voltando aqui depois de mexer em refresh de verdade. Duas coisas que só aparecem na prática:
+
+**Race no refresh.** Se três requisições expiram ao mesmo tempo, as três chamam `/refresh` juntas. Com rotação, a primeira invalida o token e as outras duas falham — e o usuário é deslogado sem motivo aparente. A correção é guardar a promise em andamento e fazer todas esperarem a mesma:
+
+```javascript
+let refreshEmAndamento = null;
+
+function renovar() {
+  refreshEmAndamento ??= fetch("/refresh", { credentials: "include" })
+    .finally(() => { refreshEmAndamento = null; });
+  return refreshEmAndamento;
+}
+```
+
+É o mesmo padrão de deduplicação de [[promises]] — uma promise compartilhada em vez de N chamadas.
+
+**Clock skew.** Servidor com relógio alguns segundos adiantado rejeita token recém-emitido por causa do `iat`/`nbf`. As libs aceitam tolerância (`clockTolerance: 5`).
