@@ -111,3 +111,11 @@ Com 1M de contexto, por que não jogar tudo? Porque:
 - meus dados podem ser maiores que qualquer contexto
 
 RAG é seleção. Contexto grande é capacidade. São complementares: contexto grande permite mandar 20 chunks em vez de 5, não permite parar de selecionar.
+
+---
+
+Voltando aqui depois de estudar avaliação. Duas coisas mudaram como eu penso no pipeline:
+
+**Medir recuperação e geração separado.** São duas falhas diferentes com correções diferentes. Chunk certo não veio → mexer em chunking e busca. Veio e a resposta está errada → mexer no prompt ou no modelo. Uma métrica só esconde qual dos dois quebrou ([[12 - Avaliação de respostas]]).
+
+**O caso "não sei" é o mais importante e o que eu não estava testando.** É fácil montar 20 perguntas que têm resposta no corpus e concluir que está tudo ótimo. O que revela a qualidade real é o conjunto de perguntas que **não** têm — e ver se ele admite em vez de inventar ([[11 - Alucinação]]).
