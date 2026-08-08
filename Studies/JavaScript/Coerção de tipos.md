@@ -42,7 +42,7 @@ Os falsy são poucos e vale decorar, porque tudo que não está nessa lista é t
 
 `false`, `0`, `-0`, `0n`, `""`, `null`, `undefined`, `NaN`
 
-Reparei que é praticamente a mesma lista do Python (ver [[if_secrets]]), com a diferença que em JS array vazio e objeto vazio são **truthy**:
+Reparei que é praticamente a mesma lista do Python (ver [[if_secrets.py]]), com a diferença que em JS array vazio e objeto vazio são **truthy**:
 
 ```javascript
 if ([]) console.log("entra");   // entra

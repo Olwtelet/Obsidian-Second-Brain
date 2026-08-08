@@ -23,7 +23,7 @@ Dentro do sistema eu confio nos tipos. Na borda eu tenho que **validar em runtim
 
 ### O jeito manual
 
-Type predicate resolve pra caso simples (anotei em [[narrowing]]):
+Type predicate resolve pra caso simples (anotei em [[narrowing.ts]]):
 
 ```typescript
 function ehUsuario(v: unknown): v is Usuario {

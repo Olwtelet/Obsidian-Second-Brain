@@ -61,7 +61,7 @@ function autenticar(req, res, next) {
 
 O middleware **enriquece** o `req` (`req.usuario`) e o handler depois só usa. Esse é o padrão: middleware prepara contexto, handler faz o trabalho. Detalhe: 401 é "não sei quem você é", 403 é "sei quem você é e você não pode" — [[6 - Autenticação x Autorização]].
 
-Middleware com parâmetro (na verdade é uma factory, ver [[factory]]):
+Middleware com parâmetro (na verdade é uma factory, ver [[factory.js]]):
 
 ```javascript
 function exigirPapel(papel) {

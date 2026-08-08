@@ -81,7 +81,7 @@ A rota ficou com três linhas: **traduzir HTTP pra chamada de função e de volt
 
 ### O que eu ganhei de concreto
 
-- testar a regra de saldo agora é chamar `service.criar()` com dois objetos fake. Sem servidor, sem banco, milissegundos ([[3 - Test doubles - mock, stub e spy]])
+- testar a regra de saldo agora é chamar `service.criar()` com dois objetos fake. Sem servidor, sem banco, milissegundos ([[3 - Test doubles]])
 - trocar Mongo por Postgres mexe só no repository
 - a mesma regra serve pra rota HTTP, worker de fila e comando de CLI
 

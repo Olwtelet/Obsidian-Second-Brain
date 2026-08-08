@@ -43,7 +43,7 @@ usuarioSchema.pre("save", async function (next) {
 });
 ```
 
-`this` é o documento — então **não pode ser arrow function** ([[this]]).
+`this` é o documento — então **não pode ser arrow function** ([[this.js]]).
 
 O `isModified` evita re-hashear a senha toda vez que salvo qualquer campo. Sem ele, o login quebra na segunda edição do usuário e leva um tempo pra descobrir o motivo.
 

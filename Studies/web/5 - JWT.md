@@ -103,6 +103,6 @@ function renovar() {
 }
 ```
 
-É o mesmo padrão de deduplicação de [[promises]] — uma promise compartilhada em vez de N chamadas.
+É o mesmo padrão de deduplicação de [[promises.js]] — uma promise compartilhada em vez de N chamadas.
 
 **Clock skew.** Servidor com relógio alguns segundos adiantado rejeita token recém-emitido por causa do `iat`/`nbf`. As libs aceitam tolerância (`clockTolerance: 5`).

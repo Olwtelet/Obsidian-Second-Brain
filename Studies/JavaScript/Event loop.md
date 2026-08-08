@@ -56,4 +56,4 @@ Porque a regra é *esvaziar a fila de microtask*, e ela nunca esvazia.
 - o event loop não deixa o JS ser paralelo, ele deixa o JS ser **não-bloqueante**
 - paralelismo de verdade exige outra thread: Web Worker no browser, `worker_threads` ou cluster no Node
 
-Isso conecta direto com [[promises]] e com o motivo do Node ser bom pra I/O e ruim pra CPU ([[1 - O runtime do Node]]).
+Isso conecta direto com [[promises.js]] e com o motivo do Node ser bom pra I/O e ruim pra CPU ([[1 - O runtime do Node]]).

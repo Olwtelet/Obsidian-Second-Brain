@@ -104,7 +104,7 @@ Quando vale:
 
 Quando **não** vale: em tudo, por precaução. Memoizar tem custo (guardar o valor, comparar deps a cada render) e polui o código. Memoizar `a + b` é mais caro que recalcular.
 
-E o custo de errar a lista de deps é bug — valor velho preso no closure ([[closures]]).
+E o custo de errar a lista de deps é bug — valor velho preso no closure ([[closures.js]]).
 
 ### O compilador muda a conta
 

@@ -71,7 +71,7 @@ O modelo pode pedir várias de uma vez quando são independentes:
 ]
 ```
 
-Executo com `Promise.all` e devolvo todos os resultados juntos ([[promises]]).
+Executo com `Promise.all` e devolvo todos os resultados juntos ([[promises.js]]).
 
 ### Erro é resultado
 

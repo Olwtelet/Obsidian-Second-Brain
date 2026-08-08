@@ -85,7 +85,7 @@ const [usuario, pedidos] = await Promise.all([
 ]);  // 200ms
 ```
 
-Mesma ideia de [[promises]]. Em server component isso é ainda mais importante porque o usuário está esperando o HTML.
+Mesma ideia de [[promises.js]]. Em server component isso é ainda mais importante porque o usuário está esperando o HTML.
 
 E existe a cascata **entre componentes**: componente pai que faz await e só então renderiza o filho, que faz outro await. A saída é `Suspense`.
 
